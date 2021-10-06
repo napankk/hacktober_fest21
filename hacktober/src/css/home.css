@@ -1,0 +1,59 @@
+.home-container{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    margin-top: 80px;
+}
+
+.gryffindor{
+    width: 50%;
+    height: 50%;
+    background-image: url('../images/picture/Gryffindor.jpg');
+    object-fit: cover;
+    background-position: bottom right;
+}
+
+.gryfName {
+    margin-top: 60px;
+}
+
+.gryffindor:hover{
+    visibility: visible;
+    transform: scale(1.2);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+    color: chartreuse;
+    transition: 0.7s;
+}
+
+.hufflepuff{
+    width: 50%;
+    height: 50%;
+    background-image: url('../images/picture/Hufflepuff.jpg');
+    object-fit: cover;
+    background-position: top right;
+}
+
+.revenclaw{
+    width: 50%;
+    height: 50%;
+    background-image: url('../images/picture/Ravenclaw.jpg');
+}
+
+.slytherin{
+    width: 50%;
+    height: 50%;
+    background-image: url('../images/picture/Slytherin.jpg');
+    object-fit: cover;
+    background-position: bottom left;
+}
+
+.slytherin:hover{
+    background-image: url('../images/picture/slytherin3.jpg');
+    background-position: center;
+    background-size: 100%;
+    transition: 2s ease;
+}
+
