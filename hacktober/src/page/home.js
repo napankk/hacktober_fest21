@@ -3,14 +3,8 @@ import Navbar from "../components/layout/navbar";
 
 function Home() {
 
-    const [username, setUsername] = useState()
-
-    const handleChangeUsername = () => {
-        setUsername("fifa")
-    }
-
     return <Fragment>
-        <Navbar username={username} />
+        <Navbar />
 
         <div className="home-container">
 

@@ -1,7 +1,13 @@
 html, body{
     margin:0;
     height:100%;
-    overflow:hidden;
+    overflow: hidden;
+}
+
+.slytherin_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .slytherin_bg{
@@ -12,5 +18,20 @@ html, body{
   background-size: cover;
 }
 
+.slytherin_quote{
+  font-size: 40px;
+  color: chartreuse;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.sorting_hat{
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 50%;
+}
 
 
