@@ -1,17 +1,11 @@
 import { Fragment , useState} from "react";
-import '../css/slytherin.css'
-import gryffindorFlag from '../../src/images/picture/gryffindor_bg.jpg' ;
+import '../css/gryffindor.css'
+import gryffindorFlag from '../../src/images/picture/gryffindor-house-red-and-yellow-banner-wallpaper-1600x900_47.jpg' ;
+import Navbar from "../components/layout/navbar";
 
 function GryffindorNavbar(props){
     return <>
-    <ul class="nav">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="#">Gryffindor</a></li>
-    <li><a href="/slytherin">Slytherin</a></li>
-    <li><a href="#">Hufflepuff</a></li>
-    <li><a href="#">Ravenclaw</a></li>
-  </ul>
+       <Navbar />
   
    <div className="gryffindorBg">
        <img src={gryffindorFlag} alt="Gryffindor" />

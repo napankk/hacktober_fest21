@@ -11,13 +11,9 @@ function Home() {
         
             <div style={{ display: 'flex', width: '100%', height: '100%', flexWrap: 'wrap' }}>
                 
-                <div className="gryffindor" >
-                       <div className="gryfName"> Gryffindor </div>
-                </div>
+                <a href="/gryffindor" className="gryffindor" />
 
-                <div className="slytherin">
-                    
-                </div>
+                <a href="/slytherin" className="slytherin" />
 
                 <div className="hufflepuff" >
                  

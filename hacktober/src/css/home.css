@@ -13,19 +13,11 @@
     background-position: bottom right;
 }
 
-.gryfName {
-    margin-top: 60px;
-}
-
 .gryffindor:hover{
-    visibility: visible;
-    transform: scale(1.2);
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 70px;
-    font-family: cursive;
-    color: chartreuse;
-    transition: 0.7s;
+    background-image: url('../images/picture/gryffindor_hover.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1.5s;
 }
 
 .hufflepuff{
@@ -36,10 +28,24 @@
     background-position: top right;
 }
 
+.hufflepuff:hover{
+    background-image: url('../images/picture/hufflepuff_hover.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1.5s;
+}
+
 .revenclaw{
     width: 50%;
     height: 50%;
     background-image: url('../images/picture/Ravenclaw.jpg');
+}
+
+.revenclaw:hover{
+    background-image: url('../images/picture/ravenclaw_hover.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1.5s;
 }
 
 .slytherin{
@@ -51,9 +57,9 @@
 }
 
 .slytherin:hover{
-    background-image: url('../images/picture/slytherin3.jpg');
+    background-image: url('../images/picture/3a22f1986719a0c5fcbd1acab5673bd7.jpg');
     background-position: center;
     background-size: 100%;
-    transition: 2s ease;
+    transition: 1.5s;
 }
 

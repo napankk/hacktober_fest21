@@ -4,9 +4,11 @@ html, body{
     overflow:hidden;
 }
 
-.gryffindor_bg{
-  margin-top: 40px;
-  height:100%; 
+.gryffindorBg{
+  width: 100%;
+  height: 100%; 
+  margin-top: 0px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
