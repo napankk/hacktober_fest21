@@ -17,6 +17,7 @@ function RavenclawHouse(){
                - Sorting hat
            </div>
         </div>
+        <button hidden="true"></button>
     </div>
 
     </>
