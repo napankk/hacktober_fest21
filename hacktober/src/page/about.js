@@ -16,6 +16,7 @@ function About() {
                     <img src={hogwartLogo} alt="Logo" className="hogwartLogo" />
                 </div>
             </div>
+            <button hidden="true"></button>
         </div>
     </>
 }
