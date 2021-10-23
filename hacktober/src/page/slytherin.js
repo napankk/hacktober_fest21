@@ -3,7 +3,7 @@ import '../css/slytherin.css'
 import slytherinFlag from '../../src/images/picture/crop.jpg';
 import Navbar from "../components/layout/navbar";
 
-function SlytherinNavbar(props) {
+function SlytherinHouse(props) {
    return <>
     <div class="slytherin_content">
        <Navbar />
@@ -23,4 +23,4 @@ function SlytherinNavbar(props) {
    </>
 }
 
-export default SlytherinNavbar;
+export default SlytherinHouse;

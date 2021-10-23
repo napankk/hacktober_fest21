@@ -1,9 +1,10 @@
-import { Fragment , useState} from "react";
+import Fragment from "react";
 import Navbar from "../components/layout/navbar";
+import '../css/home.css' ;
 
 function Home() {
 
-    return <Fragment>
+    return <>
         <Navbar />
 
         <div className="home-container">
@@ -15,20 +16,14 @@ function Home() {
 
                 <a href="/slytherin" className="slytherin" />
 
-                <div className="hufflepuff" >
-                 
-                </div>
+                <a href="/hufflepuff" className="hufflepuff" />
                 
-                <div className="revenclaw" >
+                <a href="/ravenclaw" className="revenclaw" />
 
-                </div>
             </div>
 
         </div>
-
-    </Fragment>
+    </>
 }
-
-//  <button onClick={() => handleChangeUsername()} >Change username</button>
 
 export default Home;

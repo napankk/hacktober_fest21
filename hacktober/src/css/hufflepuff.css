@@ -4,22 +4,22 @@ html, body{
     overflow:hidden;
 }
 
-.gryffindor_content {
+.hufflepuff_content {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.gryffindor_quote{
+.hufflepuff_quote{
   font-size: 40px;
-  color:navy;
+  color: black;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
 
-.gryffindorBg{
+.hufflepuffBg{
   width: 100%;
   height: 100%; 
   margin-top: 0px;

@@ -19,9 +19,9 @@ p{
 }
 
 .writer{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 10px;
-    color: darkslategray;
+    color: oldlace;
 }
 
 .containerAbout{
@@ -44,4 +44,13 @@ p{
     to {
       transform: rotate(359deg);
     }
+  }
+
+  .introduceReact{
+    animation:blinkingText 0.8s infinite;
+  }
+
+  @keyframes blinkingText{
+    0%{	color:transparent	}
+    100%{	color: chartreuse;	}
   }

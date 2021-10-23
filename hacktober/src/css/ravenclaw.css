@@ -4,22 +4,22 @@ html, body{
     overflow:hidden;
 }
 
-.gryffindor_content {
+.ravenclaw_content {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.gryffindor_quote{
+.ravenclaw_quote{
   font-size: 40px;
-  color:navy;
+  color: chartreuse;
   position: absolute;
   top: 50%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
 
-.gryffindorBg{
+.ravenclawBg{
   width: 100%;
   height: 100%; 
   margin-top: 0px;

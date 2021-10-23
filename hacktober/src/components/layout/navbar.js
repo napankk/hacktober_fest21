@@ -7,8 +7,8 @@ function Navbar(props){
     <li><a href="/about">About</a></li>
     <li><a href="/gryffindor">Gryffindor</a></li>
     <li><a href="/slytherin">Slytherin</a></li>
-    <li><a href="#">Hufflepuff</a></li>
-    <li><a href="#">Ravenclaw</a></li>
+    <li><a href="/hufflepuff">Hufflepuff</a></li>
+    <li><a href="/ravenclaw">Ravenclaw</a></li>
   </ul>
     </>
 }

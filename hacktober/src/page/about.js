@@ -10,7 +10,7 @@ function About() {
         <div className="biggestAbout">
            <img src={aboutWallpaper} alt="wallpaper" className="aboutWallpaper" />
             <div>
-                <p>This website was built by React.js</p>
+                <p className="introduceReact">This website was built by React.js</p>
                 <p className="writer"> Written by Napan Kongkai </p>
                 <div className="containerAbout">
                     <img src={hogwartLogo} alt="Logo" className="hogwartLogo" />
