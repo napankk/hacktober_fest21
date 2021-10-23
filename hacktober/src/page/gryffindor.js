@@ -17,7 +17,7 @@ function GryffindorNavbar(props){
                - Sorting hat
            </div>
         </div>
-
+       <button hidden="true"></button>
   </div>
     </>
 } 
